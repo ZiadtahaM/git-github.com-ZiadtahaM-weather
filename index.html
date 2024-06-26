@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weather</title>
+</head>
+
+    <nav class="navbar navbar-expand-lg  me-sm-3   m-md-auto fixed-top nav " id="navbar-example3">
+        <div class="container   ">
+            <a class="navbar-brand     " href="#"> 
+                <div class="container">
+                    <div class="row">
+                        <div class="col-6 "><img src="./img/logo@2x.png" alt=""></div>
+                        <div class="col-6">
+                            <div class="row">
+                                <div class="col-12 text-white">
+                                    weather
+                                </div>
+                                <div class="col-12 text-white-50">
+                                    tagline goes here
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <button class="navbar-toggler  " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon opacity-100"></span>
+            </button>
+            <div class="max">
+                <div class="collapse navbar-collapse  d-lg-flex justify-content-lg-end " id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item ps-4 ps-lg-2">
+                            <a class="nav-link text-white  fs-6  active" aria-current="true" href="#Home">Home</a>
+                        </li>
+                        <li class="nav-item ps-4 ps-lg-2">
+                            <a class="nav-link   text-white" href="#About">ABOUT</a>
+                        </li>
+                        <li class="nav-item ps-4 ps-lg-2">
+                            <a class="nav-link  text-white" href="#SERVICES">SERVICES</a>
+                        </li>
+                        <li class="nav-item ps-4 ps-lg-2">
+                            <a class="nav-link text-white " href="#WORK">WORK
+                            </a>
+                        </li>
+                        <li class="nav-item ps-4 ps-lg-2">
+                            <a class="nav-link  text-white" href="#Clients">Clients
+                            </a>
+
+                        </li>
+                        <li class="nav-item ps-4 ps-lg-2">
+                            <a class="nav-link text-white " href="#Team">Team
+                            </a>
+
+                        </li>
+
+                        <li class="nav-item  ps-1 msd">
+                            <a class="nav-link   text-white " href="#CONTACT"> CONTACT</a>
+                        </li>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+ <main><div class="inner"></div>
+ 
+    <section class="pt-5 container search">
+        <form class="d-flex justify-content-end" role="search">
+            <input class="form-control me-2 border-3 rounded-5  text-black " type="search" placeholder="Search"  id="search" aria-label="Search">
+            <input type="button" value="Find" id="submit" class="position-absolute mt-1 me-5 bg-primary ps-4 pe-4 rounded-4" >
+        </form>
+    </section>
+    <section>
+        <div class="container p-5">
+            <div class="row text-white ">
+                <div class="col-lg-4 col-md-12  p-2">
+                    <div class="cardbac  rounded-2">
+                        <div class="cardss d-flex justify-content-between">
+                            <div class="left" id="todc4"></div>
+                            <div class="right" id="datee">
+                                
+                            </div>
+                        </div>
+                    <div class="card2 p-5 start-0 d-flex flex-column">
+                        <span class=" " id="neww"></span>
+                        <span class="display-1" id="tepra">23</span>
+                        <span ><img src="./img/113 (1).png" id="imgToday"alt=""></span>
+                        <span id="clouds" class="text-primary"> sunny</span>
+                        <div class="end pt-5">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-4">
+                                        <img src="./img/icon-umberella.png" alt=""> <span id="humtoday">20%</span>
+                                    </div>
+                                    <div class="col-4">
+                                        <img src="./img/icon-wind.png" alt=""> <span id="windSpeedToday">20%</span>
+                                    </div>
+                                    <div class="col-4">
+                                        <img src="./img/icon-compass.png" alt=""> <span id="dirToday">20%</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 pt-2 pb-5 ">
+                    <div class="bbg d-flex justify-content-center flex-column ">
+                        <div class="mb-5 top" id="tmoro"></div>
+                        <div class="imgg p-5"><img src="./img/113.png" alt="" id="icon"></div>
+                        <div class="h3" id="Temppp"></div>
+                        <div class=" text-white-50 h5 pb-4" id="TempTmoroSmall"></div>
+                    </div>
+                    </div>
+                    <div class="col-lg-4 pt-2 pb-5 ">
+                    <div class="bbg d-flex justify-content-center flex-column ">
+                        <div class="mb-5 top" id="tmororw"></div>
+                        <div class="img p-5"><img src="./img/113.png" alt="" id="icon4"></div>
+                        <div class="h3" id="Tempppp"></div>
+                        <div class=" text-white-50 h5 pb-4" id="TempTmoroSmallp"></div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+ </main>
+
+
+<script src="./index.js"></script>
+</body>
+
+</html>
